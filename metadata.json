@@ -1,0 +1,81 @@
+{
+  "name": "revbits-puppetplugin",
+  "version": "1.0.0",
+  "author": "RevBits",
+  "summary": "Securely use secrets stored in RevBits",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": "",
+  "dependencies": [
+    {
+      "name": "puppetlabs/registry",
+      "version_requirement": ">= 3.1.0 < 4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04",
+        "18.04",
+        "20.04"
+      ]
+    },
+    {
+      "operatingsystem": "Centos",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "Alpine",
+      "operatingsystemrelease": [
+        "3.9"
+      ]
+    },
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2012 R2",
+        "Server 2016",
+        "Server 2019"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.0.0 < 7.0.0"
+    }
+  ],
+  "tags": [
+    "access",
+    "account",
+    "revbits",
+    "puppetplugin",
+    "credential",
+    "credentials",
+    "dap",
+    "devops",
+    "identity",
+    "privileged",
+    "secret",
+    "secrets",
+    "security",
+    "vault"
+  ],
+  "pdk-version": "1.18.1",
+  "template-url": "pdk-default#1.18.1",
+  "template-ref": "tags/1.18.1-0-g3d2e75c"
+}
