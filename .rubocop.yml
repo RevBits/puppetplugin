@@ -18,9 +18,6 @@ AllCops:
   - vendor/**/*
   - "**/Puppetfile"
   - "**/Guardfile"
-  - 'spec/unit/revbits/puppet_module/http_spec.rb'
-  - 'spec/classes/revbits_spec.rb'
-  - 'spec/functions/puppetplugin_secret_spec.rb'
 Metrics/LineLength:
   Description: People have wide screens, use them.
   Max: 200

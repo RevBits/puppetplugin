@@ -1,4 +1,4 @@
-# RevBits - Puppet Plugin
+# RevBits - PuppetPlugin
 
 ## Environment Setup
 

@@ -1,17 +1,14 @@
 {
   "name": "revbits-puppetplugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "RevBits",
   "summary": "Securely use secrets stored in RevBits",
   "license": "Apache-2.0",
-  "source": "",
-  "project_page": "",
+  "source": "https://github.com/RevBits/puppetplugin",
+  "project_page": "https://github.com/RevBits/puppetplugin",
   "issues_url": "",
   "dependencies": [
-    {
-      "name": "puppetlabs/registry",
-      "version_requirement": ">= 3.1.0 < 4.0.0"
-    }
+
   ],
   "operatingsystem_support": [
     {
